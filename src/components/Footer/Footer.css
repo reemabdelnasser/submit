@@ -1,0 +1,100 @@
+.footer {
+  background-color: #303030;
+  color: #80806e;
+}
+.footer .container {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+  height: 400px;
+}
+.footer .container .top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.footer .container .top .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+.footer .container .top .right {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.footer .container .top .right ul {
+  display: flex;
+  gap: 1rem;
+}
+.footer .container .top .right ul li {
+  flex: 1;
+  list-style-type: none;
+}
+.footer .container .center {
+  margin-top: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.footer .container .center .box {
+  bottom: 1px;
+  flex: 10;
+  width: 30px;
+  height: 10px;
+  background-color: transparent;
+  
+}
+.footer .container .center .box ul {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  
+}
+.footer .container .center .box ul li {
+  padding-top: 10px;
+  list-style-type: none;
+
+}
+
+.footer .container .center .box ul a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #80806e !important;
+  text-decoration: none;
+  
+}
+.footer .container .center .box1{
+  height: 390px;
+  width: 490px;
+}
+.footer .container .center .box1 h3{
+  margin-top: 80px;
+}
+.footer .container .center .box1 .tagcloud  {
+  width: 320px;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .container .center .box1 .tagcloud a {
+  display: inline-block;
+  margin: 0 2px 5px;
+  padding: 8px;
+  background-color: #1ea69a;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+.footer .container .center .box1 .tagcloud a:hover {
+  background-color: #ea7256;
+}
+.footer .container .end {
+  margin-top: 290px;
+  display: flex;
+  justify-content: space-between;
+}
